@@ -22,7 +22,7 @@ public class Hub extends JavaPlugin implements Listener{
 	String prefix = (ChatColor.DARK_GRAY + "[" + ChatColor.GOLD + "Hub" + ChatColor.DARK_GRAY + "]" + " ");
 	String msgkick = (ChatColor.GRAY + "¡Has sido echado mientras te conectabas al servidor!" + " ");
 	String msgnormal = (ChatColor.GRAY + "Razones:" + ChatColor.RED + " " + "¡No eres bienvenido en este servidor!");
-	String agresivemsg = (ChatColor.GRAY + " Razones:" + ChatColor.RED + " " + "Vete a la verga pendejo de mierda!");
+	String agresivemsg = (ChatColor.GRAY + " Razones:" + ChatColor.RED + " " + "-");
 	
 	final HashMap<Long, Long> Timer = new HashMap<Long, Long>();
 	public HashMap<String, Long> cooldowns = new HashMap<String, Long>();
